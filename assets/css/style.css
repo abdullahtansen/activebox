@@ -1,0 +1,79 @@
+.header-section {
+    background: url(/assets/img/banner.png);
+}
+.navbar .container {
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+.nav-link {
+    color: white;
+}
+
+/* banner section */
+.banner-section {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 65px;
+}
+
+.banner-section-bottom {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+.find-btn .btn{
+    background-color: #e84545;
+    font-size: 13px;
+    color: white;
+}
+.btn:first-child:hover, :not(.btn-check)+.btn:hover {
+    color: white;
+    background-color: #e84545;
+}
+
+/* feature section */
+.feature-section h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:14px;
+}
+.feature-section p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:14px;
+}
+/* Gallery Image */
+.gallery_img{
+    padding: 1px;
+}
+/* overlay slide */
+.container-over {
+    position: relative;
+    overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.overlay {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0; 
+    width: 100%;
+    height:0;
+    opacity: .9;
+    background-color:#E75452;
+    overflow: hidden;
+    transition: .5s ease;
+  }
+  .container-over:hover .overlay {
+    height: 100%;
+  }
+  
+.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
