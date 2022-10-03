@@ -88,6 +88,12 @@ a {
   .card{
     height: 520px;
   }
+  .card-body h3{
+    text-align: center;
+  }
+  .card-text{
+    text-align: center;
+  }
   .card-description{
     justify-content: center;
   }
@@ -99,26 +105,37 @@ a {
   .download_btn:hover{
     color: red;
   }
-  .icon{
+  .card .card-body .icon{
+    text-align: center;
     border-radius: 50px;
     font-size: 30px;
     color: #313454;
     box-shadow: 1px 1px 4px gray;
   }
   .fa-brands{
-    padding: 15px;
+    padding: 10px;
     margin-top: 5px;
+    background-color: gray;
+    border-radius: 50%;
+  }
+  .fa-brands:hover{
+    border-radius: 50%;
+    background-color: #E52E2E;
+    color: black;
   }
   .icon:hover{
-    color: #E52E2E;
+    background-color: #E52E2E;
+    color: gray;
   }
   .icons{
     border-radius: 50px;
     font-size: 30px;
     color: white;
+    background-color: gray;
   }
   .icons:hover{
-    color: #E52E2E;
+    color: black;;
+    background-color: #E52E2E;
   }
   .footer-section{
     background: #3A3E64;
@@ -137,7 +154,8 @@ a {
     align-items: center;
     margin-left: 20px;
     font-weight: 600;
+    font-size: 17px;
     color:#6c7279;
-  
+    width: 800px;
     font-family: Raleway,sans-serif;
   }
