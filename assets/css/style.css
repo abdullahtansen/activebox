@@ -1,5 +1,5 @@
 .header-section {
-    background: url(/assets/img/banner.png);
+    background: url(../img/banner.png);
 }
 .navbar .container {
     border-bottom: 1px solid white;
