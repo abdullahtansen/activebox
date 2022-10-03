@@ -7,8 +7,15 @@
 }
 .nav-link {
     color: white;
+    font-size: 20px;
+    font-weight: 600;
 }
-
+.nav-link:hover{
+  color: #E52E2E;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  color: #E52E2E;
+}
 /* banner section */
 .banner-section {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -22,11 +29,12 @@
 .find-btn .btn{
     background-color: #e84545;
     font-size: 13px;
+    padding: 10px;
     color: white;
 }
 .btn:first-child:hover, :not(.btn-check)+.btn:hover {
     color: white;
-    background-color: #e84545;
+    background-color: red;
 }
 
 /* feature section */
@@ -47,11 +55,11 @@
     position: relative;
     overflow: hidden;
 }
-
+/* 
 a {
   text-decoration: none;
   color: #fff;
-}
+} */
 .overlay {
     position: absolute;
     right: 0;
@@ -77,15 +85,9 @@ a {
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  /* team css start */
-  /* .team-card{
-    display: flex;
-    width: 600px;
-   
+  .card{
+    height: 520px;
   }
-  .team-body{
-    width: 600px;
-  } */
   .card-description{
     justify-content: center;
   }
@@ -97,13 +99,26 @@ a {
   .download_btn:hover{
     color: red;
   }
-.icon .fa-brands{
-   color: black;
-   padding: 10px;
+  .icon{
+    border-radius: 50px;
+    font-size: 30px;
+    color: #313454;
+    box-shadow: 1px 1px 4px gray;
   }
   .fa-brands{
-    padding: 10px;
-    border: 1px solid white;
+    padding: 15px;
+    margin-top: 5px;
+  }
+  .icon:hover{
+    color: #E52E2E;
+  }
+  .icons{
+    border-radius: 50px;
+    font-size: 30px;
+    color: white;
+  }
+  .icons:hover{
+    color: #E52E2E;
   }
   .footer-section{
     background: #3A3E64;
@@ -113,4 +128,16 @@ a {
   }
   .footer-bottom p{
    text-align: center;
+  }
+  .slidermy{
+    background-color: #53354A;
+  }
+  .slide_text{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-weight: 600;
+    color:#6c7279;
+  
+    font-family: Raleway,sans-serif;
   }
