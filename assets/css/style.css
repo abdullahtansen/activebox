@@ -77,3 +77,40 @@ a {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  /* team css start */
+  /* .team-card{
+    display: flex;
+    width: 600px;
+   
+  }
+  .team-body{
+    width: 600px;
+  } */
+  .card-description{
+    justify-content: center;
+  }
+  .download_btn{
+    width: 24%;
+    background-color: #E52E2E;
+    color: white;
+  }
+  .download_btn:hover{
+    color: red;
+  }
+.icon .fa-brands{
+   color: black;
+   padding: 10px;
+  }
+  .fa-brands{
+    padding: 10px;
+    border: 1px solid white;
+  }
+  .footer-section{
+    background: #3A3E64;
+  }
+  .footer_bottom{
+    background: #313454;
+  }
+  .footer-bottom p{
+   text-align: center;
+  }
